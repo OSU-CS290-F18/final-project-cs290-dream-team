@@ -1,10 +1,12 @@
-
 #Header {
 
 font-size:30px;
 overflow:hidden;
 height: 200px;
-background-color: #004080;
+background-image: url('sky.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
 position: fixed;
 left:0px;
 top:0px;
@@ -14,9 +16,47 @@ width:100%;
 
 
 
+#navbar {
 
+  position:absolute;
+  top:200px;
+  left:0px;
+  height: 45px;
+  width: 100%;
+  text-align: center;
+  background-color: #004080;
+  list-style: none;
+  color: green;
+  padding-top: 20px;
+
+}
+
+#navbar li {
+  display: inline;
+  font-family:serif;
+  padding-right: 200px;
+
+  color: white;
+}
+
+
+
+#navbar li a{
+font-size: 20px;
+text-decoration: none;
+  color: white;
+  position: absolute;
+  top:20px;
+
+}
+
+#navbar li a:hover{
+
+background-color: pink;
+}
 
 #Header ul{
+
 
   color:white;
   list-style: none;
