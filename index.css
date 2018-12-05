@@ -1,25 +1,35 @@
+
 #Header {
 
 font-size:30px;
 overflow:hidden;
 height: 200px;
-background-image: url('sky.jpg');
+
 background-repeat: no-repeat;
 background-size: cover;
 background-position: bottom;
 position: fixed;
 left:0px;
-top:0px;
+top:100px;
 width:100%;
 
 }
 
+#textarea{
 
+  position: absolute;
+  top:200px;
+
+text-align: left;
+  width:400px;
+  left: 40px;
+
+}
 
 #navbar {
 
   position:absolute;
-  top:200px;
+  top:0px;
   left:0px;
   height: 45px;
   width: 100%;
@@ -58,9 +68,9 @@ background-color: pink;
 #Header ul{
 
 
-  color:white;
+  color:black;
   list-style: none;
-  text-align: center;
+
   line-height: 50px;
   margin-bottom: 5px;
   letter-spacing: 5px;
