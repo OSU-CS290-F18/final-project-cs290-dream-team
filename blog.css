@@ -1,0 +1,80 @@
+#navbar {
+
+  position:absolute;
+  top:0px;
+  left:0px;
+  height: 45px;
+  width: 100%;
+  text-align: center;
+  background-color: #004080;
+  list-style: none;
+  color: green;
+  padding-top: 20px;
+
+}
+
+#navbar li {
+  display: inline;
+  font-family:serif;
+  padding-right: 200px;
+
+  color: white;
+}
+
+
+
+#navbar li a{
+font-size: 20px;
+text-decoration: none;
+  color: white;
+  position: absolute;
+  top:20px;
+
+}
+
+#navbar li a:hover{
+
+background-color: pink;
+}
+
+h1{
+
+  position: absolute;
+  top:120px;
+
+}
+
+
+
+
+
+form input{
+
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#commandform{
+
+position: absolute;
+top:760px;
+
+}
+
+form{
+
+position: absolute;
+top:200px;
+left:10px;
+width: 400px;
+
+}
+
+.content{
+
+position: absolute;
+top:260px;
+text-align: left;
+
+}
