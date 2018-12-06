@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/OSU-CS290-F18/final-project-cs290-dream-team#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.1.10",
+    "path": "^0.12.7"
   },
   "devDependencies": {}
 }
