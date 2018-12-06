@@ -1,0 +1,20 @@
+conn = new Mongo();
+db = conn.getDB("myDatabase");
+db = connect("localhost:27020/myDatabase");
+
+var config = require('./data.json');
+var path = require('path');
+
+db.users.insertMany(
+	[
+		
+	]
+)
+
+function onRequest(request, response){
+	response.writeHead(200, {'Content-Type': 'text/plain'});
+	response.write('Working...');
+	response.end();
+}
+
+http.createServer(onRequest).listen(8000);
