@@ -1,9 +1,26 @@
+#headerId{
+	font-size: 12px;
+	color: blue;
+}
+
 #blog-reader-id{
 	border-style: solid;
+	border-width: thin;
 	margin: 0px 2px 20px 2px;
 	padding:10px;
+	border-radius: 8px;
 }
 #uid{
 	font-size: 12px;
 	color: blue;
+}
+#command-input{
+	border-radius: 3px;
+
+}
+#command-input{
+	border-radius: 4px;
+}
+#blog-input{
+	border-radius: 10px;
 }
